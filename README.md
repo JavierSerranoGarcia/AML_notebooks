@@ -16,14 +16,14 @@ Start by installing Anaconda (or Miniconda), git, and if you have a TensorFlow-c
 Next, clone this project by opening a terminal and typing the following commands (do not type the first $ signs on each line, they just indicate that these are terminal commands):
 
 ```
-$ git clone https://github.com/ageron/handson-ml3.git
-$ cd handson-ml3
+$ git clone https://github.com/JavierSerranoGarcia/AML_notebooks.git
+$ cd AML_notebooks
 ```
 
-Next, run the following commands:
+Next, run the following commands: 
 
 ```
-$ conda env create -f environment.yml
+$ conda env create -f environment.yml # Change to a python virtual environment
 $ conda activate homl3
 $ python -m ipykernel install --user --name=python3
 ```
